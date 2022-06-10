@@ -2,6 +2,8 @@
 
 A Flutter project made to run End to End tests with RobotFramework.
 
+![app](./docs/images/app.gif)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
@@ -48,3 +50,5 @@ robot counter_app.robot
 ```bash
 robot -t "Complex test case" counter_app.robot
 ```
+
+![robot-test](./docs/images/robot-test.gif)
