@@ -15,9 +15,10 @@ ${ANDROID_PLATFORM_NAME}      Android
 *** Keywords ***
 
 Open The counter app
-    Open Application  http://localhost:4723/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}
-      ...  platformName=${ANDROID_PLATFORM_NAME} 
-      ...   app=${CURDIR}/../../build/app/outputs/flutter-apk/app-debug.apk
+    Open Application  http://192.168.1.32:4723/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}
+      ...  platformName=${ANDROID_PLATFORM_NAME}
+      ...  appPackage=com.example.flutter_tests  appActivity=com.example.flutter_tests.MainActivity
+      #...   app=${CURDIR}/../../build/app/outputs/flutter-apk/app-debug.apk
 
 
 Close The counter app

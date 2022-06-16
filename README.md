@@ -52,3 +52,48 @@ robot -t "Complex test case" counter_app.robot
 ```
 
 ![robot-test](./docs/images/robot-test.gif)
+
+## Open HTML report
+
+RobotFramework generates test execution HTML report. By default the report is generated next to the `*.robot` file in `report.html` file.
+
+
+<a href="./test/robot/report.html">Open Report</a>
+
+# Run Flutter tests
+
+## Flutter Tests location
+
+### Unit tests
+
+    - `test/unit/counter_controller_test.dart`
+
+### Widget tests
+
+    - `test/widget/widget_test.dart`
+
+### Golden tests
+
+    - `test/golden/home_page_golden_test.dart`
+
+### Integration tests
+
+    - `integration_test/app_test.dart`
+
+## Run all tests
+
+```bash
+flutter test
+``` 
+
+## Update Gloden files
+
+```bash
+flutter test --update-goldens
+```
+
+## Run Integration tests
+
+```bash
+flutter test integration_test
+```
