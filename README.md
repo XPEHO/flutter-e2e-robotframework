@@ -39,13 +39,17 @@ We use several libraries to create End to End tests
 
 Go in the `test/robot` directory
 
-And run the folowwing command
+And run the following command
 
 ```bash
 robot counter_app.robot
 ```
 
 ## Run single test case
+
+Go in the `test/robot` directory
+
+And run the following command
 
 ```bash
 robot -t "Complex test case" counter_app.robot
@@ -55,7 +59,7 @@ robot -t "Complex test case" counter_app.robot
 
 ## Open HTML report
 
-RobotFramework generates test execution HTML report. By default the report is generated next to the `*.robot` file in `report.html` file.
+RobotFramework generates test execution HTML reports. By default the report is generated next to the `*.robot` file in the `report.html` file.
 
 
 <a href="./test/robot/report.html">Open Report</a>
@@ -86,7 +90,7 @@ RobotFramework generates test execution HTML report. By default the report is ge
 flutter test
 ``` 
 
-## Update Gloden files
+## Update Golden files
 
 ```bash
 flutter test --update-goldens
